@@ -1,5 +1,5 @@
 # Counter-Down
 
-Create movies site for my portfolio.
+Coming Soon site for my portfolio.
 
-Live Previw >>=== https://mohamed-abdelrady.github.io/Counter-Down/
+Live Previw >>=== https://mohamed-abdelrady.github.io/Coming-Soon/
