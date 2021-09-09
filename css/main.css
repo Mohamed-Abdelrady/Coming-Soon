@@ -1,0 +1,188 @@
+/* globalz */
+.main-header {
+    background: url('../img/header.gif');
+    background-size: cover;
+    position: relative;
+}
+.main-header .main-content {
+    min-height: 100vh;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+/* start navbar */
+.main-header .navbar .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+/* end navbar */
+
+/* start count-down */
+.main-header .count-down {
+    margin: 50px 0 50px;
+}
+.main-header .count-down h1 {
+    font-weight: 600;
+}
+.main-header .count-down h1 span {
+    background-image: linear-gradient(to right, #3399cc, #99ff99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width: 991px) {
+    .main-header .count-down h1 {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 576px) {
+    .main-header .count-down h1 {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 575px) {
+    .main-header .count-down h1 {
+        font-size: 2rem;
+    }
+}
+.main-header .count-down .time:not(:last-of-type) {
+    margin-right: 1.5rem;
+}
+.main-header .count-down .time p {
+    font-size: 3.3rem;
+    font-weight: 300;
+    background-image: linear-gradient(to right, #3399cc, #99ff99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-header .count-down .time span {
+    color: #ccc;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#count-down {
+    transition: all 1s ease-in-out;
+}
+#count-down > p:first-of-type {
+    font-size: 2.2rem;
+    background-image: linear-gradient(to right, #3399cc, #99ff99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+#count-down > p:last-of-type {
+    font-size: 1.5rem;
+    color: #ccc;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin: 0;
+}
+/* end count-down */
+
+/* start email */
+.main-header .email {
+    position: relative;
+    margin: 30px 0 80px;
+}
+.main-header .email h4 {
+    font-weight: 400;
+}
+@media (max-width: 767px) {
+    .main-header .email h4 {
+        font-size: 2.5rem;
+    }
+}
+.main-header .email .input-group {
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #3399cc, #99ff99);
+    margin: 0 auto;
+    width: 90%;
+}
+@media (min-width: 992px) {
+    .main-header .email .input-group {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .main-header .email .input-group {
+        width: 60%;
+    }
+}
+@media (min-width: 576px) {
+    .main-header .email .input-group {
+        width: 75%;
+    }
+}
+.main-header .email input {
+    color: #fff;
+    font-weight: 600;
+    padding: 20px 10px 14px;
+}
+.main-header .email input:focus {
+    border: none;
+    box-shadow: none;
+}
+.main-header .email input::placeholder {
+    color: #fff !important;
+    font-weight: 600;
+}
+.main-header .email .input-group-text {
+    color: #99ff99;
+    font-size: 0.8rem;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.main-header .email .input-group-text:hover {
+    color: #3399cc;
+}
+/* end email */
+
+/* start footer */
+.main-header .footer {
+    padding-bottom: 5px;
+}
+.main-header .footer .social-media i {
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.main-header .footer .social-media i:not(:last-of-type) {
+    margin-right: 0.5rem;
+}
+.main-header .footer .social-media i:hover {
+    color: #3399cc;
+    background-color: #99ff99;
+    border-color: #99ff99;
+}
+.main-header .footer p {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.main-header .footer p span {
+    color: #99ff99;
+}
+.main-header .footer h4 {
+    font-size: 1.8rem;
+}
+/* end footer  */
